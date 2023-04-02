@@ -1,0 +1,48 @@
+#movie-list ol li span {display: block; }
+h1, h2 {text-align: center;}
+
+#movie-list {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#movie-list ol li a {
+        float: right;
+        margin-top: -20px;
+}  
+#movie-list ol li {
+    border-bottom: 1px solid #000; 
+    padding: 0 0 20px 0;
+    margin:0 0 20px 0;}  
+
+
+.movie-top-list {
+    max-width: 700px;
+    margin: 0 auto;
+}
+h1, h2 {font-family: Arial;}
+
+.movie {padding: 30px 0;}
+
+.to-do {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 550px;
+    margin: 0 auto;
+ }
+ .to-do form {display: flex;}
+ input[type="text"] {border: 1px solid #dadada; padding: 0 15px; height: 45px; width: 460px; box-sizing: border-box;}
+ button, input[type="submit"] { border: none; background: #f59833; height: 45px; width: 160px; cursor: pointer;}
+ .to-do-list > div {
+    border: 1px solid #dadada; 
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;}
+
+.to-do-list > div + div {margin-top: 20px;}
+.btn-clear {margin-top: 20px;    margin-left: auto;}
+
+input[type="submit"] {margin-left: 20px;}
